@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>META</title>
+    <script></script>
+</head>
+<body>
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>META<b>FOOD</b></h1></div>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">saran</a></li>
+            </ul>
+            <div>
+                <input class="signin" type="submit" value="sign In" name="signin">
+                <input class="signup" type="submit" value="sign Up" name="signUp">
+            </div>
+        </div>
+    </section>
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>order your best <br>food anytime</h2>
+                    <p>Hey, Our delicius food is waiting for you,<br>
+                        we are always near to you with fresh item of food</p>
+                </div>
+                <button>explore food</button>
+            </div>
+            <div class="content-right">
+                <img src="image/img.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
