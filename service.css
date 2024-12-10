@@ -5,11 +5,17 @@
 }
 
 body{
-    background-color: #ffeae0;
+    background-color: #000000;
 }
 
-.back{
-    background-color: #ffeae0;
+.background{
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(img/nusantara.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
 }
 .nav{
     width: 100px;
@@ -17,7 +23,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
-    background-color: #ffeae0;
+    
 }
 .li-navbar:hover {
     background-color: orange;
@@ -36,7 +42,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 20px 0;
+    
 }
 
 .nav .logo h1{
@@ -60,7 +67,7 @@ body{
 
 .nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
@@ -94,29 +101,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffeae0;
+    background-color: #ffec8a;
 }
 
 header {
     text-align: center;
-    background-color: #ffeae0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1rem 0;
+    font-style: initial;
+    font-family: sans-serif;
+    font-size: medium;
+    height: 0%;
+    left: auto;
+    right: auto;
+    resize: both;
 }
 
 main {
-    max-width: 600px;
+    max-width: 550px;
     margin: 2rem auto;
     padding: 1rem;
-    background: #fff1ac;
+    background: #ffffff17;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-
+    
+    
 }
 
 form {
     display: flex;
     flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-family: sans-serif;
+    margin: auto;
 }
 
 label {
@@ -134,7 +152,7 @@ input, select, textarea, button {
 
 button {
     margin-top: 1.5rem;
-    background-color: #4CAF50;
+    background-color: #4397ff;
     color: white;
     border: none;
     cursor: pointer;
@@ -143,8 +161,9 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2b60ff;
 }
+
 
 
 
