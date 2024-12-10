@@ -1,0 +1,130 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #ff511f;
+}
+
+/* Header */
+.header {
+    background-image: url('food-background.jpg'); /* Ganti dengan URL gambar yang relevan */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.header .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Form Section */
+.form-section {
+    background: white;
+    padding: 40px 30px;
+    margin-top: -50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-section h2 {
+    font-size: 2em;
+    color: #f12711;
+    margin-bottom: 10px;
+}
+
+.form-section p {
+    font-size: 1em;
+    color: #ff511f;
+    margin-bottom: 20px;
+}
+
+.saran-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #f12711;
+    box-shadow: 0 0 8px rgba(241, 39, 17, 0.5);
+    outline: none;
+}
+
+.btn-submit {
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+/* Footer */
+.footer {
+    background: #ff511f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 0.9em;
+}
