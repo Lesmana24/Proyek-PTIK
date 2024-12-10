@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Tentang Kami</h1>
+            <p>Bringing you the best taste.</p>
+        </div>
+    </header>
+    <main>
+        <section class="about-us container">
+            <h2>Siapa Kami?</h2>
+            <p>Kami adalah restoran yang menghadirkan cita rasa lokal dan internasional dengan bahan-bahan segar dan berkualitas tinggi. Komitmen kami adalah memberikan pengalaman kuliner yang tak terlupakan bagi setiap pelanggan.</p>
+        </section>
+        <section class="our-values">
+            <div class="container">
+                <h2>Nilai-Nilai Kami</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <img src="img/depositphotos_116250234-stock-illustration-grocery-bag-vector-illustration-isolated.jpg" alt="Bahan Segar">
+                        <h3>Bahan Segar</h3>
+                        <p>Kami selalu menggunakan bahan-bahan segar untuk menjamin kualitas terbaik pada setiap hidangan.</p>
+                    </div>
+                    <div class="value-card">
+                        <img src="img/cooking-4662712_1280.webp" alt="Passion dalam Memasak">
+                        <h3>Passion dalam Memasak</h3>
+                        <p>Setiap hidangan disiapkan dengan cinta dan dedikasi oleh koki kami.</p>
+                    </div>
+                    <div class="value-card">
+                        <img src="img/istockphoto-1471399103-612x612.jpg" alt="Kepuasan Pelanggan">
+                        <h3>Kepuasan Pelanggan</h3>
+                        <p>Kepuasan Anda adalah prioritas utama kami. Kami berusaha memberikan layanan terbaik.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Restoran Kami. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
